@@ -1,6 +1,6 @@
 {
   "name": "quick-chrome-cookies-secure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extract encrypted Google Chrome cookies for a url on a Mac or Linux",
   "keywords": [
     "google",
@@ -32,8 +32,10 @@
     "int": "^0.2.0",
     "request": "^2.88.0",
     "tldjs": "^1.5.1",
-    "tough-cookie": "^2.3.4",
-    "win-dpapi": "^0.1.0",
-    "keytar": "^5.0.0"
+    "tough-cookie": "^2.3.4"
+  },
+  "optionalDependencies": {
+    "keytar": "^5.0.0",
+    "win-dpapi": "^0.1.0"
   }
 }
